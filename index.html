@@ -19,8 +19,15 @@
         value="This content will always face you."
         look-at="[gps-camera]"
         scale="120 120 120"
-        gps-entity-place="latitude: 114.401225; longitude: 30.426938;"
+        gps-entity-place="latitude: 114.40110739; longitude: 30.42811109;"
       ></a-text>
+
+      <a-entity
+        gltf-model="./assets/magnemite/scene.gltf"
+        rotation="0 180 0"
+        scale="0.15 0.15 0.15"
+        gps-entity-place="longitude: 30.42811109; latitude: 114.40110739;"
+        animation-mixer/>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
